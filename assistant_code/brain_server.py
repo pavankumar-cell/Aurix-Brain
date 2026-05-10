@@ -18,11 +18,13 @@ from flask_limiter.util import get_remote_address
 app = Flask(__name__)
 limiter = Limiter(app=app, key_func=get_remote_address)
 
-COMMAND_LOG_FOLDER = "../commands_logs"
-IMAGE_CACHE_FOLDER = "../image_cache"
-BRAIN_FOLDER = "../brain"
-DB_FILE = "../brain.db"
-API_KEYS_FILE = "../api_keys.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+COMMAND_LOG_FOLDER = os.path.join(BASE_DIR, "commands_logs")
+IMAGE_CACHE_FOLDER = os.path.join(BASE_DIR, "image_cache")
+BRAIN_FOLDER = os.path.join(BASE_DIR, "brain")
+DB_FILE = os.path.join(BASE_DIR, "brain.db")
+API_KEYS_FILE = os.path.join(BASE_DIR, "api_keys.json")
 REQUEST_TIMEOUT = 60  # seconds - reject requests older than 60 seconds
 
 os.makedirs(COMMAND_LOG_FOLDER, exist_ok=True)
