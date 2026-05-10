@@ -1,0 +1,11 @@
+{
+  "user_profile": {
+    "name": "Pavan",
+    "business": "Swarna Dhanvika",
+    "ai_name": "Aurix"
+  },
+  "conversation_history": [],
+  "last_intent": null,
+  "last_topic": null,
+  "context_stack": []
+}

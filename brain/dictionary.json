@@ -1,0 +1,136 @@
+{
+  "greeting": {
+    "type": "intent",
+    "options": [
+      "Hello",
+      "Hi",
+      "Hey"
+    ]
+  },
+  "status_followup": {
+    "type": "intent",
+    "options": [
+        "How about you?",
+        "And you?",
+        "What about you?",
+        "How are you doing?",
+        "How are you feeling today?",
+        "What’s happening your way?",
+        "How’s the progress today?",
+        "How’s development going?",
+        "How are things moving on your side?",
+        "Any updates from your end?",
+        "Is everything on track?",
+        "What’s the status on your side?"
+    ]
+  },
+  "assist_prompt": {
+    "type": "intent",
+    "options": [
+        "How can I assist you today?",
+        "Shall we continue working on your project?",
+        "Any tasks you'd like to tackle?",
+        "What can I help you with?",
+        "What would you like to work on?",
+        "How may I support you?",
+        "What’s next?",
+        "What are we building today?",
+        "How may I help you?",
+        "What would you like to explore?",
+        "What would you like to optimize today?",
+        "How can I make things easier for you?"
+    ]
+  },
+
+  "status_check": {
+    "type": "intent",
+    "options": [
+      "I'm doing great",
+      "I'm functioning perfectly",
+      "All systems are running smoothly",
+      "I'm doing awesome",
+      "Everything is working fine"
+    ]
+  },
+
+  "farewell": {
+    "type": "intent",
+    "options": [
+      "Goodbye",
+      "See you later",
+      "Take care",
+      "Catch you soon",
+      "Have a great day"
+    ]
+  },
+
+  "thank_you": {
+    "type": "intent",
+    "options": [
+      "You're welcome",
+      "No problem",
+      "Happy to help",
+      "Anytime",
+      "Glad I could help"
+    ]
+  },
+
+  "apology": {
+    "type": "intent",
+    "options": [
+      "No worries at all!",
+      "It's completely fine.",
+      "Don't worry about it.",
+      "That’s okay, it happens.",
+      "No problem at all!",
+      "All good 😊",
+      "You don’t need to apologize."
+    ]
+  },
+
+  "confirmation": {
+    "type": "intent",
+    "options": [
+      "Great 👍",
+      "Alright!",
+      "Sounds good.",
+      "Perfect.",
+      "Got it.",
+      "Noted.",
+      "Okay 😊"
+    ]
+  },
+
+  "confirmation_followup": {
+    "type": "intent",
+    "options": [
+      "👍 Let me know if you'd like more details.",
+      "👍 I'm here if you need anything further.",
+      "👍 Just let me know how you'd like to proceed.",
+      "sounds perfect! If you have any more questions, feel free to ask.",
+      "👍 Feel free to ask if you need more information."
+    ]
+  },
+
+  "error": {
+    "type": "intent",
+    "options": [
+      "Oops! Something went wrong",
+      "I encountered an issue",
+      "That didn't work as expected",
+      "There seems to be a problem",
+      "Something went wrong"
+    ]
+  },
+
+  "casual_chat": {
+    "type": "intent",
+    "options": [
+      "Just thinking about new ideas",
+      "Exploring new possibilities",
+      "Ready for the next task",
+      "Always learning something new",
+      "Thinking about how to improve things"
+    ]
+  }
+}

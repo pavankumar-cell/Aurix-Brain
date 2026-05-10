@@ -1,0 +1,38 @@
+{
+  "f020058b99e64e247d3ea3283107fb2b": {
+    "device_id": "96d73c04d165c732",
+    "device_name": "AURIX-Default",
+    "created_at": "2026-02-14T21:46:27.682692",
+    "active": true
+  },
+  "7b46db636019f30e6381e0c3d1a9f62c": {
+    "device_id": "8a18b6f5ff2ef556",
+    "device_name": "AURIX-Desktop",
+    "created_at": "2026-02-15T10:30:06.508161",
+    "active": true
+  },
+  "50b33526ad6abcda3ddf6f05c7b74e67": {
+    "device_id": "0d995df82f4d8307",
+    "device_name": "AURIX-Desktop",
+    "created_at": "2026-02-15T10:37:54.029322",
+    "active": true
+  },
+  "086e6175778b1c719ae4012fca30a986": {
+    "device_id": "323aae75e69fc9de",
+    "device_name": "AURIX-Desktop",
+    "created_at": "2026-02-15T10:39:10.568765",
+    "active": true
+  },
+  "9d27089f1d613cdc96dbfa21fc422590": {
+    "device_id": "0fa7999fd27846fa",
+    "device_name": "AURIX-Desktop",
+    "created_at": "2026-02-15T10:42:21.549392",
+    "active": true
+  },
+  "548bbafc62d5e70001d0de64a7d0a9d8": {
+    "device_id": "fdefd53edacea01b",
+    "device_name": "AURIX-USB",
+    "created_at": "2026-02-17T14:56:51.358791",
+    "active": true
+  }
+}

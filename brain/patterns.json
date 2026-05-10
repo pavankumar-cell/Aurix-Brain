@@ -1,0 +1,49 @@
+{
+  "hello": "greeting",
+  "hi": "greeting",
+  "hey": "greeting",
+  "good morning": "greeting",
+  "good evening": "greeting",
+  "good afternoon": "greeting",
+
+  "bye": "farewell",
+  "goodbye": "farewell",
+  "see you": "farewell",
+  "see you later": "farewell",
+  "take care": "farewell",
+
+  "how are you": "status_check",
+  "how are you doing": "status_check",
+  "are you fine": "status_check",
+  "are you okay": "status_check",
+  "what's up": "status_check",
+
+  "thanks": "thank_you",
+  "thank you": "thank_you",
+  "thank you so much": "thank_you",
+  "thanks a lot": "thank_you",
+  "appreciate it": "thank_you",
+
+  "sorry": "apology",
+  "my mistake": "apology",
+  "i apologize": "apology",
+
+  "okay": "confirmation",
+  "ok": "confirmation",
+  "alright": "confirmation",
+  "got it": "confirmation",
+  "done": "confirmation",
+  "sure": "confirmation",
+
+  "what are you doing": "casual_chat",
+  "are you busy": "casual_chat",
+  
+  "what is *": "definition_query",
+  "who is *": "person_query",
+  "where is *": "location_query",
+  "define *": "definition_query",
+  "create *": "create_action",
+  "show me *": "display_action",
+  "calculate *": "math_action",
+  "tell me about *": "information_query"
+}
