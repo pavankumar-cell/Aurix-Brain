@@ -672,6 +672,11 @@ def health():
     })
 
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+
 @app.route("/auth/register", methods=["POST"])
 def register_device():
     """Register a new device and get API key"""
